@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.software.builtup">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Client.ClientList.ClientListDetailAccepted"></activity>
+        <activity android:name=".Client.SearchBar.SearchAdapter" />
+        <activity android:name=".Client.SearchBar.SearchBarActivity" />
+        <activity android:name=".Architect.CurrentTransaction.ArchitectCurrentTransactionDetail" />
+        <activity android:name=".Architect.CurrentTransaction.ArchitectCurrentTransactionAdapter" />
+        <activity android:name=".Architect.CurrentTransaction.ArchitectCurrentTransactionRecyclerActivity" />
+        <activity android:name=".Architect.ArchitectHistory.ArchitectHistoryDetail" />
+        <activity android:name=".Architect.ArchitectHistory.ArchitectHistoryAdapter" />
+        <activity android:name=".Architect.ArchitectHistory.ArchitectHistoryActivityRecycler" />
+        <activity android:name=".Architect.Feedback.ArchitectFeedbackActivity" />
+        <activity android:name=".Client.History.ClientHistoryDetail" />
+        <activity android:name=".Client.History.ClientHistoryAdapter" />
+        <activity android:name=".Client.History.ClientHistoryActivityRecycler" />
+        <activity android:name=".Architect.ArchitectChatSystem.ArchitectChatRecyclerActivity" />
+        <activity android:name=".Architect.ArchitectChatSystem.ArchitectChatListAdapter" />
+        <activity android:name=".Client.ClientChatSystem.ChatListAdapter" />
+        <activity android:name=".Client.ClientChatSystem.ClientChatRecyclerActivity" />
+        <activity android:name=".Architect.InboxArchitect.UpdateProfileArchitectActivity" />
+        <activity android:name=".Client.UpdateProfileClientActivity" />
+        <activity android:name=".Client.feedback.FeedBackActivity" />
+        <activity android:name=".Client.InboxClient.ClientInboxDetail" />
+        <activity android:name=".Client.InboxClient.ClientInboxAdapter" />
+        <activity android:name=".Architect.InboxArchitect.ArchitectInboxDetail" />
+        <activity android:name=".Architect.ArchitectMainActivity" />
+        <activity android:name=".Client.ClientList.ClientListDetail" />
+        <activity android:name=".Client.ClientList.ClientListAdapter" />
+        <activity android:name=".Client.Renovation.RenovationRecycler" />
+        <activity android:name=".Client.ArchitectListDetailActivity" />
+        <activity android:name=".Client.buildHouse.BuildHouseAdapter" />
+        <activity android:name=".Client.buildHouse.BuildHouseRecycler" />
+        <activity android:name=".Client.ClientMainActivity" />
+        <activity android:name=".Architect.RegisterArchitectActivity" />
+        <activity android:name=".Client.RegisterClientActivity" />
+        <activity android:name=".Architect.LoginArchitectActivity" />
+        <activity android:name=".Client.LoginClientActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AppStart.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuiltUp</string>
+    <string-array name="FocusField">
+        <item>Build House</item>
+        <item>Renovate</item>
+    </string-array>
+</resources>

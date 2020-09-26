@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackGray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/builtup_cropped_logo_500px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Architect Registration"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_register_username_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="email"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="italic"
+                    />
+                <EditText
+                    android:textColor="@android:color/white"
+                    android:id="@+id/edit_text_username_register_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dark_input_1"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:hint="email"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_register_password_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="password"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="italic"
+                    />
+                <EditText
+                    android:textColor="@android:color/white"
+                    android:id="@+id/edit_text_password_register_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:background="@drawable/dark_input_1"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:hint="password" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_register_fullname_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fullname"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:textColor="@android:color/white"
+                    android:id="@+id/edit_text_fullname_register_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dark_input_1"
+                    android:padding="10dp"
+                    android:hint="fullname" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_register_phone_number_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="contact number"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="italic"
+                    />
+                <EditText
+                    android:textColor="@android:color/white"
+                    android:id="@+id/edit_text_phone_number_register_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:background="@drawable/dark_input_1"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:hint="contact number"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_register_organization_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="organization"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:textColor="@android:color/white"
+                    android:id="@+id/edit_text_organization_register_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dark_input_1"
+                    android:padding="10dp"
+                    android:hint="organization"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_register_focus_field_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="focus field"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="italic" />
+
+                <Spinner
+                    android:textColor="@android:color/white"
+                    android:id="@+id/edit_text_focus_field_register_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="focus field"
+                    android:background="@drawable/dark_input_1" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_register_address_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="address"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="italic" />
+                <EditText
+                    android:textColor="@android:color/white"
+                    android:id="@+id/edit_text_address_register_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="top"
+                    android:background="@drawable/dark_input_area_1"
+                    android:padding="10dp"
+                    android:hint="address"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_architect_registration"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="submit"
+                android:background="@drawable/rounded_login"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout >

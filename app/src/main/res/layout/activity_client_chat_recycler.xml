@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackGray"
+    tools:context=".Client.ClientChatSystem.ClientChatRecyclerActivity">
+    <TextView
+        android:id="@+id/architect_name_c"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:text="Client Name"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_message_recycler_c"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_above="@id/linear_inner_chat_text_c"
+        android:layout_below="@id/architect_name_c"/>
+
+    <LinearLayout
+        android:background="@color/lighterBlackGray"
+        android:id="@+id/linear_inner_chat_text_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_text_chat_client"
+            android:imeActionId="4"
+            android:imeOptions="actionSend"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:hint="chat text.."
+            android:textSize="20dp"
+            android:elevation="3dp"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/dark_input_1"/>
+        <Button
+            android:id="@+id/btn_send_chat_c"
+            android:layout_margin="4dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:background="@drawable/ic_send_black_24dp"/>
+    </LinearLayout>
+</RelativeLayout>

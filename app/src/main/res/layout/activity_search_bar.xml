@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackGray"
+    tools:context=".Client.SearchBar.SearchBarActivity">
+
+    <LinearLayout
+        android:id="@+id/search_bar_home_client"
+        android:orientation="horizontal"
+        android:background="@color/lighterBlackGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="20dp">
+        <EditText
+            android:id="@+id/search_bar_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_input_1"
+            android:padding="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:hint="Search"/>
+        <ImageButton
+            android:id="@+id/search_button_client"
+            android:background="@color/lighterBlackGray"
+            android:padding="-10dp"
+            android:layout_marginLeft="-50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_search_black_24dp" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_recycler_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_bar_home_client"
+        />
+
+</RelativeLayout>

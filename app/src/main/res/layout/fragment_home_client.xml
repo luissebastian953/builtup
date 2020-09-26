@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/blackGray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/search_bar_home_client"
+        android:orientation="horizontal"
+        android:background="@color/lighterBlackGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="50dp"
+            android:text="Search.."
+            android:textColor="@android:color/darker_gray"
+            android:background="@drawable/dark_input_1"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-40dp"
+            android:src="@drawable/ic_search_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/card_view_background_dark"
+                android:padding="20dp"
+                android:id="@+id/linear_layout_card_build_house_c"
+                android:layout_margin="7.5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="10dp"
+                    android:background="@drawable/round_back"
+                    android:src="@drawable/ic_home_black_24dp"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:text="Build House"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/card_view_background_dark"
+                android:padding="20dp"
+                android:id="@+id/linear_layout_card_renovation_c"
+                android:layout_margin="7.5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="20dp"
+                    android:background="@drawable/round_back"
+                    android:src="@drawable/ic_build_black_24dp"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:text="Renovation"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/card_view_background_dark"
+                android:padding="20dp"
+                android:id="@+id/linear_layout_card_history_c"
+                android:layout_margin="7.5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="15dp"
+                    android:background="@drawable/round_back"
+                    android:src="@drawable/ic_restore_black_24dp"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:text="History"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/card_view_background_dark"
+                android:padding="20dp"
+                android:id="@+id/linear_layout_card_feedback_c"
+                android:layout_margin="7.5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="30dp"
+                    android:background="@drawable/round_back"
+                    android:src="@drawable/ic_feedback_black_24dp"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:text="Feedback"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
